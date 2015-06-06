@@ -1,7 +1,5 @@
-require "formula"
-
 class Fssh < Formula
-  desc "Forward SSH - Reverse ssh wrapper for Linux X11/Mac OS X copy-paste buffer"
+  desc "Reverse ssh wrapper for Linux X11/Mac OS X"
   homepage "https://github.com/kylemanna/fssh"
   head "https://github.com/kylemanna/fssh.git"
 
