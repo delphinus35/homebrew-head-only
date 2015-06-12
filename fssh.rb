@@ -15,6 +15,6 @@ class Fssh < Formula
     EOS
     chmod 0755, testpath/"ssh"
     ENV.prepend_path "PATH", testpath
-    assert_match /^#{ssh_output_message}$/, shell_output("fssh")
+    assert_match /^#{ssh_output_message}$/, shell_output("#{bin}/fssh")
   end
 end
